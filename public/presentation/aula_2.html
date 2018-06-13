@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en"
+   prefix="og: http://ogp.me/ns#">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport"
+      content="width=device-width, initial-scale=1">
+
+   <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks,
+      @jlantunez.
+    -->
+
+   <!-- SEO -->
+   <title>WebSlides Demos</title>
+   <meta name="description"
+      content="Beautiful HTML presentations and websites made with WebSlides.">
+
+   <!-- URL CANONICAL -->
+   <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+
+      rel="stylesheet">
+
+   <!-- CSS Base -->
+   <link rel="stylesheet"
+      type='text/css'
+      media='all'
+      href="static/css/webslides.css">
+
+   <!-- Optional - CSS SVG Icons (Font Awesome) -->
+   <link rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="static/css/svg-icons.css">
+
+   <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+   <!-- FACEBOOK -->
+   <meta property="og:url"
+      content="http://your-url.com/permalink">
+   <!-- EDIT -->
+   <meta property="og:type"
+      content="article">
+   <meta property="og:title"
+      content="WebSlides Demos">
+   <!-- EDIT -->
+   <meta property="og:description"
+      content="Beautiful HTML presentations and websites made with WebSlides.">
+   <!-- EDIT -->
+   <meta property="og:updated_time"
+      content="2017-01-04T17:22:34">
+   <!-- EDIT -->
+   <meta property="og:image"
+      content="static/images/share-webslides.jpg">
+   <!-- EDIT -->
+
+   <!-- TWITTER -->
+   <meta name="twitter:card"
+      content="summary_large_image">
+   <meta name="twitter:site"
+      content="@webslides">
+   <!-- EDIT -->
+   <meta name="twitter:creator"
+      content="@jlantunez">
+   <!-- EDIT -->
+   <meta name="twitter:title"
+      content="WebSlides Demos">
+   <!-- EDIT -->
+   <meta name="twitter:description"
+      content="Beautiful HTML presentations and websites made with WebSlides.">
+   <!-- EDIT -->
+   <meta name="twitter:image"
+      content="static/images/share-webslides.jpg">
+   <!-- EDIT -->
+
+   <!-- FAVICONS -->
+   <link rel="shortcut icon"
+      sizes="16x16"
+      href="static/images/favicons/favicon.png">
+   <link rel="shortcut icon"
+      sizes="32x32"
+      href="static/images/favicons/favicon-32.png">
+   <link rel="apple-touch-icon icon"
+      sizes="76x76"
+      href="static/images/favicons/favicon-76.png">
+   <link rel="apple-touch-icon icon"
+      sizes="120x120"
+      href="static/images/favicons/favicon-120.png">
+   <link rel="apple-touch-icon icon"
+      sizes="152x152"
+      href="static/images/favicons/favicon-152.png">
+   <link rel="apple-touch-icon icon"
+      sizes="180x180"
+      href="static/images/favicons/favicon-180.png">
+   <link rel="apple-touch-icon icon"
+      sizes="192x192"
+      href="static/images/favicons/favicon-192.png">
+
+   <!-- Android -->
+   <meta name="mobile-web-app-capable"
+      content="yes">
+   <meta name="theme-color"
+      content="#333333">
+
+   <style>
+      .toc,
+      .toc ol>li:before,
+      .chapter {
+         background-color: transparent;
+      }
+   </style>
+</head>
+
+<body>
+
+   <main role="main">
+      <article id="webslides">
+
+         <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+         <section class="bg-black-blue aligncenter">
+            <span class="background dark"
+               style="background-image:url('./img/react-native-splash.png')"></span>
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap">
+               <p class="text-subtitle">Alex Rodin</p>
+               <h1 class="text-landing">React Native</h1>
+               <p class="text-symbols">com TypeScript</p>
+            </div>
+            <!-- .end .wrap -->
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <div class="wrap size-50">
+               <h3>Aula 2 - Conteúdo</h3>
+               <hr>
+               <div class="toc">
+                  <ol>
+                     <li>
+                        <span class="chapter">Como criar componentes que mantém estado</span>
+                     </li>
+                     <li>
+                        <span class="chapter">Como passar propriedades para outros componentes a partir do estado de um componente</span>
+                     </li>
+                     <li>
+                        <span class="chapter">O que deve e não deve ser mantido no estado do componente</span>
+                     </li>
+                     <li>
+                        <span class="chapter">componenteDidMount, willMount, render, willUnmount, state, props, etc.</span>
+                     </li>
+                     <li>
+                        <span class="chapter">Aprendendo a usar o context, onde usar, qual a aplicação, onde não usar</span>
+                     </li>
+                     <li>
+                        <span class="chapter">Aprendendo a usar o referencias, qual a aplicação</span>
+                     </li>
+                  </ol>
+               </div>
+               <!-- end .toc -->
+            </div>
+            <!-- .end .wrap -->
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap">
+               <div class="content-left">
+                  <h2>Ciclo de Vida</h2>
+                  <h4>Quatro fases de um componente React</h4>
+                  <ol>
+                     <li>
+                        <span class="chapter">Inicialização</span>
+                     </li>
+                     <li>
+                        <span class="chapter">Montagem</span>
+                     </li>
+                     <li>
+                        <span class="chapter">Atualização</span>
+                     </li>
+                     <li>
+                        <span class="chapter">Desmontagem</span>
+                     </li>
+                  </ol>
+               </div>
+               <!-- .end .content-left -->
+               <div class="content-left">
+                  <img src="./img/react.png"
+                     alt="React">
+               </div>
+               <!-- .end .content-left -->
+            </div>
+            <!-- .end .wrap -->
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <!--.wrap = container (width: 90%) -->
+            <img src="./img/lifecicle.png"
+               style="background: #fff; border-radius: 20px;">
+            <!-- .end .wrap -->
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <div class="wrap">
+               <h2>Ciclo de Vida</h2>
+               <h4>1 - Inicialização</h4>
+               <p>
+                  Nesta fase, o componente React se prepara para sua inicialização, configurando os estados iniciais e props padrões se houverem.
+               </p>
+               <ol>
+                  <li>
+                     <strong>constructor</strong>
+                  </li>
+                  <li>
+                     <strong>instance variables</strong>
+                  </li>
+               </ol>
+            </div>
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <div class="wrap">
+               <div class="content-left">
+                  <h2>Ciclo de Vida</h2>
+                  <h4>2 - Montagem</h4>
+                  <p>
+                     Depois de preparar com todas as necessidades básicas, estado e props, o nosso Componente React está pronto para ser montado
+                     no DOM.
+                  </p>
+                  <ol>
+                     <li>
+                        <strong>componentWillMount</strong> - É executado quando o componente estiver prestes a ser montado.
+                        <br/>
+                        <strong>
+                           Todas as coisas que você deseja fazer antes do componente ser montado, devem ser definidas aqui. Este método é executado
+                           uma vez em um ciclo de vida de um componente e antes da primeira renderização.
+                        </strong>
+                     </li>
+                     <li>
+                        <strong>render</strong>
+                     </li>
+                     <li>
+                        <strong>componentDidMount</strong> - É executado depois que o componente foi montado.
+                        <br/>
+                        <strong>
+                           Este método é executado uma vez em um ciclo de vida de um componente e será após a primeira renderização.
+                        </strong>
+                        <strong>
+                           As chamadas de API (request etc) devem ser feitas sempre no método componentDidMount.
+                        </strong>
+                     </li>
+                  </ol>
+               </div>
+               <div class="content-left">
+                  <img src="./img/life_mounting.png"
+                     style="background: #fff; border-radius: 20px;">
+               </div>
+            </div>
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <div class="wrap">
+               <div class="content-left">
+                  <h2>Ciclo de Vida</h2>
+                  <h4>3 - Atualização</h4>
+                  <p>
+                     Esta fase começa quando o componente React já foi montado e recebe novas atualizações (Externas ou internas).
+                  </p>
+                  <p>
+                     O componente pode ser atualizado de duas maneiras, através de uma "pertubação externa" (do envio de novas props) ou de uma
+                     atualização interna, a atualização do seu próprio estado.
+                  </p>
+                  <ol>
+                     <li>
+                        <strong>componentWillReceiveProps</strong> - é executado quando as props mudaram.
+                        <br/>
+                        <strong>
+                           Às vezes, o estado depende das props, portanto, sempre que as props mudam o estado também deve ser sincronizado. Este é o
+                           método onde deve ser feito isso.
+                        </strong>
+                     </li>
+                     <li>
+                        <strong>shouldComponentUpdate</strong> - Diz ao React que, quando o componente recebe novas props ou estado,
+                        o React re-renderiza ou pode ignorar a renderização do componente.
+                        <br/>
+                        <strong>
+                           O Componente foi atualizado?” Portanto, esse método deve retornar verdadeiro ou falso, e então o componente seria re-renderizado
+                           ou ignorado. Por padrão, esse método retorna verdadeiro.
+                        </strong>
+                     </li>
+                     <li>
+                        <strong>componentWillUpdate</strong> - É executado somente quando shouldComponentUpdatedevolver true.
+                        <br/>
+                        <strong>
+                           Este método é usado apenas para preparar a próxima renderização, semelhante ao componentWillMount ou ao construtor.
+                        </strong>
+                     </li>
+                     <li>
+                        <strong>render</strong>
+                     </li>
+                     <li>
+                        <strong>componentDidUpdate </strong> - É executado quando o componente foi atualizado no DOM.
+                     </li>
+                  </ol>
+               </div>
+               <div class="content-left">
+                  <img src="./img/life_update.png"
+                     style="background: #fff; border-radius: 20px;">
+               </div>
+            </div>
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <div class="wrap">
+               <h2>Ciclo de Vida</h2>
+               <h4>4 - Desmontagem</h4>
+               <p>
+                  Nesta fase, o componente não é mais necessário e será desmontado do DOM.
+               </p>
+               <ol>
+                  <li>
+                     <strong>componentWillUnmount </strong> - Este método é o último método no ciclo de vida. É executado imediatamente
+                     antes de o componente ser removido do DOM.
+                  </li>
+               </ol>
+            </div>
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap">
+               <div class="content-left">
+                  <h2>Context (Legado React &lt; 16.3)</h2>
+                  <p>
+                     Permite passar dados pela árvore de componentes sem precisar informar as Props para cada nível.
+                  </p>
+                  <p>
+                     Em um aplicativo React normal, os dados são passados de cima para baixo (top-down, pai para filho) via props, mas isso pode
+                     ser complicado para certos tipos de props (por exemplo, preferência de localidade, internacionalização,
+                     tema de UI) que são exigidos por muitos componentes. Contexto fornece uma maneira de compartilhar valores
+                     como esses entre componentes, sem ter que passar explicitamente uma Props em todos os níveis da árvore.
+                  </p>
+                  <p>
+                     Context É UMA VARIÁVEL GLOBAL (quasi-global)!!
+                  </p>
+               </div>
+               <!-- .end .content-left -->
+               <div class="content-left">
+                  <img src="./img/context.jpg"
+                     style="background: #fff; border-radius: 20px;">
+               </div>
+               <!-- .end .content-left -->
+            </div>
+            <!-- .end .wrap -->
+         </section>
+
+         <section class="bg-apple slide-top ">
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap">
+               <div class="content-left">
+                  <h2>
+                     Refs (Legado React &lt; 16.3)
+                  </h2>
+                  <p>
+                     Permite acessar o DOM ou o React Element que foi criado no método render
+                  </p>
+                  <p>
+                     No fluxo de vida normal de um componente React, as Props são a única maneira de os componentes pai interagirem com seus filhos.
+                     Para modificar um filho, você o re-renderiza com novos Props. No entanto, existem alguns casos em que
+                     você precisa modificar obrigatoriamente um filho de forma mais direta (o proprio elemnto). O filho a
+                     ser modificado pode ser uma instância de um componente React ou pode ser um elemento DOM. Para ambos
+                     os casos, o React fornece esse acesso.
+                  </p>
+                  <ol>
+                     <li> Gerenciar FOCUS em inputs </li>
+                     <li> Forçar seleção de texto </li>
+                     <li> Controlar um componente de mídia (play, pause, volume, etc) </li>
+                     <li> Executar animações imperativas </li>
+                     <li> Integrar com bibliotecas de terceiros que dependem de um elemento HTML (DOM) </li>
+                  </ol>
+                  <p>
+                     Evite usar o Refs, use APENAS QUANDO NÃO TIVER OUTRA OPÇÃO!
+                  </p>
+               </div>
+               <!-- .end .content-left -->
+               <div class="content-left">
+                  <img src="./img/manipulate_dom.jpeg"
+                     style="background: #fff; border-radius: 20px;">
+               </div>
+               <!-- .end .content-left -->
+            </div>
+            <!-- .end .wrap -->
+         </section>
+      </article>
+   </main>
+   <!-- end main -->
+
+   <!-- Required -->
+   <script src="static/js/webslides.js"></script>
+   <script>
+      window.ws = new WebSlides();
+   </script>
+
+   <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+   <script defer
+      src="static/js/svg-icons.js"></script>
+
+</body>
+
+</html>
